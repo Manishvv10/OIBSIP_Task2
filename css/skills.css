@@ -1,0 +1,375 @@
+
+/* Technical Skills */
+.skills{
+    position: absolute;
+    width: 50%;
+    max-width: 550px;
+    padding: 0 20px;
+    top: 5%;
+    left: 2%;
+}
+
+.skills h1{
+    font-size: 30px;
+}
+.skill-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 14px;
+    background-color: rgb(32, 30, 30);
+    border-radius: 3px;
+}
+
+.skill-per{
+    height: 14px;
+    background-color: rgb(158, 158, 9);
+    border-radius: 3px;
+    position: relative;
+    animation: fillbars 2.5s 1;
+}
+
+.skill-per::before{
+    content:attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color:black;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillbars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+
+
+/* professional skills */
+.proskill{
+    position: absolute;
+    width: 50%;
+    max-width: 550px;
+    padding: 0 20px;
+    top: 5%;
+    right: 2%;
+
+}
+
+.proskill h1{
+    text-align: center;
+    top: 5vh;
+    font-size: 30px;
+}
+
+
+/* Communication */
+
+.pskill-1{
+    width: 140px;
+    height: 140px;
+    /* background-color: white; */
+    position: absolute;
+    top: 100px;
+    left: 5vw;
+
+}
+
+.pskill-1 h2{
+    position: relative;
+    top: 190px;
+    right: 5px;
+    font-size: 20px;
+
+}
+
+.pskill-1 .outer{
+    top: 5%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(32, 30, 30);;
+}
+
+.pskill-1 .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#comm-number{
+    font-weight: 600;
+    color: white;
+
+}
+
+.svg-pskill-1{
+    /* background-color: white; */
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 114px;
+    left: 66.5px;
+}
+
+.svg-pskill-1 circle{
+    background-color: white;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: progress-pskill-1 1.6s linear forwards;
+}
+
+@keyframes progress-pskill-1 {
+    100%{
+        stroke-dashoffset: 80.6;
+    }
+}
+
+
+
+/* Team Work*/
+
+.pskill-2{
+    width: 140px;
+    height: 140px;
+    /* background-color: white; */
+    position: absolute;
+    top: 100px;
+    right: 3vw;
+
+}
+
+.pskill-2 h2{
+    position: relative;
+    top: 190px;
+    left: 18px;
+    font-size: 20px;
+
+}
+
+.pskill-2 .outer{
+    top: 5%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(32, 30, 30);
+}
+
+.pskill-2 .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#team-number{
+    font-weight: 600;
+    color: white;
+
+}
+
+.svg-pskill-2{
+    /* background-color: white; */
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 114px;
+    left: 354px;
+}
+
+.svg-pskill-2 circle{
+    background-color: white;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: progress-pskill-2 1.6s linear forwards;
+}
+
+@keyframes progress-pskill-2 {
+    100%{
+        stroke-dashoffset: 40.3;
+    }
+}
+
+
+
+/* Project-Management */
+
+.pskill-3{
+    width: 140px;
+    height: 140px;
+    /* background-color: white; */
+    position: absolute;
+    top: 355px;
+    left: 5vw;
+
+}
+
+.pskill-3 h2{
+    position: relative;
+    top: 220px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.pskill-3 .outer{
+    top: 5%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(32, 30, 30);;
+}
+
+.pskill-3 .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#proj-number{
+    font-weight: 600;
+    color: white;
+
+}
+
+.svg-pskill-3{
+    /* background-color: white; */
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 390px;
+    left: 66.5px;
+}
+
+.svg-pskill-3 circle{
+    background-color: white;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: progress-pskill-3 1.6s linear forwards;
+}
+
+@keyframes progress-pskill-3 {
+    100%{
+        stroke-dashoffset: 120.9;
+    }
+}
+
+
+/* Creativity */
+.pskill-4{
+    width: 140px;
+    height: 140px;
+    /* background-color: white; */
+    position: absolute;
+    top: 380px;
+    right: 3vw;
+
+}
+
+.pskill-4 h2{
+    position: relative;
+    top: 195px;
+    left: 20px;
+    font-size: 20px;
+
+}
+
+.pskill-4 .outer{
+    top: 5%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(32, 30, 30);
+}
+
+.pskill-4 .inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#creative-number{
+    font-weight: 600;
+    color: white;
+
+}
+
+.svg-pskill-4{
+    /* background-color: white; */
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 393px;
+    left: 354px;
+}
+
+.svg-pskill-4 circle{
+    background-color: white;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 403;
+    stroke-dashoffset: 403;
+    animation: progress-pskill-4 1.6s linear forwards;
+}
+
+@keyframes progress-pskill-4 {
+    100%{
+        stroke-dashoffset: 100.75;
+    }
+}

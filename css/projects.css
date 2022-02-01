@@ -1,0 +1,213 @@
+#MyProjects h1{
+    font-size: 40px;
+    padding: 0px 70px;
+}
+
+
+#MyProjects .main-box-1{
+    position: relative;
+    top: 5vh;
+    height: 44vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 0;
+    /* background-color: blue; */
+}
+
+#MyProjects .main-box-2{
+    position: relative;
+    top: 5vh;
+    height: 44vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 0;
+    /* background-color: red; */
+}
+
+#MyProjects img{
+    height: 100px;
+    width: 100px;
+}
+
+.main-box-1 .box-a{
+    display: flex;
+    height:100%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px 0px;
+    overflow: hidden;
+    /* background-color: green; */
+}
+
+.main-box-1 .box-b{
+    display: flex;   
+    height:100%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px 0px;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+
+
+.main-box-2 .box-c{
+    display: flex;   
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px 0px;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.main-box-2 .box-d{
+    display: flex;  
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px 0px;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+
+#MyProjects img{
+    position: relative;
+    top: 4vh;
+    left: 1vw;
+    height:80%;
+    width:40%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* Bus Ticketing System */
+
+.main-box-1 .box-a .box-a-desc{
+    position: relative;
+    width: 20vw;
+    margin: 40px 30px;
+    padding-left: 5px;
+    border-left: 2px solid #fff;
+    position: relative;
+    /* background-color: white; */
+}
+
+.main-box-1 .box-a .box-a-desc span{
+    font-size: 15px;
+    background:rgb(168, 168, 11);;
+    color:black;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.main-box-1 .box-a .box-a-desc h3{
+    font-size: 20px;
+    color:rgb(168, 168, 11);
+    padding-top: 20px;
+}
+
+.main-box-1 .box-a .box-a-desc p{
+    font-size: 15px;
+    color:#eee;
+    padding: 3px;
+}
+
+
+
+
+
+/* J.A.R.V.I.S Python */
+
+.main-box-1 .box-b .box-b-desc{
+    position: relative;
+    width: 20vw;
+    margin: 40px 30px;
+    padding-left: 5px;
+    border-left: 2px solid #fff;
+    position: relative;
+}
+
+.main-box-1 .box-b .box-b-desc span{
+    font-size: 15px;
+    background:rgb(168, 168, 11);;
+    color:black;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.main-box-1 .box-b .box-b-desc h3{
+    font-size: 20px;
+    color:rgb(168, 168, 11);
+    padding-top: 20px;
+}
+
+.main-box-1 .box-b .box-b-desc p{
+    font-size: 15px;
+    color:#eee;
+    padding: 5px;
+}
+
+
+/* Ambilight */
+
+.main-box-2 .box-c .box-c-desc{
+    position: relative;
+    width: 20vw;
+    margin: 40px 30px;
+    padding-left: 5px;
+    border-left: 2px solid #fff;
+    position: relative;
+}
+
+.main-box-2 .box-c .box-c-desc span{
+    font-size: 15px;
+    background:rgb(168, 168, 11);;
+    color:black;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.main-box-2 .box-c .box-c-desc h3{
+    font-size: 20px;
+    color:rgb(168, 168, 11);
+    padding-top: 20px;
+}
+
+.main-box-2 .box-c .box-c-desc p{
+    font-size: 15px;
+    color:#eee;
+    padding: 5px;
+}
+
+/* sound rective leds */
+
+.main-box-2 .box-d .box-d-desc{
+    position: relative;
+    width: 20vw;
+    margin: 40px 30px;
+    padding-left: 5px;
+    border-left: 2px solid #fff;
+    position: relative;
+}
+
+.main-box-2 .box-d .box-d-desc span{
+    font-size: 15px;
+    background:rgb(168, 168, 11);;
+    color:black;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+
+.main-box-2 .box-d .box-d-desc h3{
+    font-size: 20px;
+    color:rgb(168, 168, 11);
+    padding-top: 20px;
+}
+
+.main-box-2 .box-d .box-d-desc p{
+    font-size: 15px;
+    color:#eee;
+    padding: 5px;
+}
